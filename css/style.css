@@ -52,12 +52,29 @@ footer{
 @media only screen and (min-width:600px){
     #grid-container{
         display: grid;
-        grid-template-areas: "header header header" "main main main" "footer footer footer";
+        grid-template-areas: "header header header" "main main main main main" "footer footer footer";
     }
 
-    .flex-section {
+    .flex-section{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+      
+    .flex-section section{
+        margin-right: 20px;
+        padding: 1rem;
+        width: 40%;
+        align-self: center;
+    }
+      
+    .flex-section ul{
+        list-style: none;
+        padding: 0;
+        display: flex;
+    }
+      
+    .flex-section li{
+        margin-right: 10px;
     }
 }
