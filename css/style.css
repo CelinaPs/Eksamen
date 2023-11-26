@@ -35,11 +35,12 @@ footer{
 
 /*Footer*/
 
-footer{
+.footer{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 110px;
     background-color: #252525;
     color: white;
     align-items: center;
@@ -55,51 +56,111 @@ footer{
         grid-template-areas: "header header header" "main main main main main" "footer footer footer";
     }
 
-    .flex-section{
+    /*Footer*/
+
+    .flex-footer{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
       
-    .flex-section section{
+    .flex-footer section{
         margin-right: 20px;
         padding: 1rem;
         width: 40%;
         align-self: center;
     }
       
-    .flex-section ul{
+    .flex-footer ul{
         list-style: none;
         padding: 0;
         display: flex;
     }
-      
-    .flex-section li{
+
+    .flex-footer li{
         margin-right: 10px;
     }
 
-    main{
-        
+    /*Nav*/
+
+    .logo{
+        float: left;
+        padding: 1%;
     }
 
-    main section h2{
-        padding: 5px;
-        padding-left: 15px;
+    header nav ul{
+        float: right;
+        position: relative;
+        padding: 1%;
     }
 
-    main section a{
+    header nav ul li{
+        display: inline-block;
+        margin: 0 0.6rem;
+    }
+
+    header nav ul li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .porto{
+        font-weight: bold;
+    }
+
+    header nav ul li a u{
         content: " ";
-        position: absolute;
         display: block;
-        width: 96%;
-        left: 2%;
-        height: 3px;
-        background-color: #9a0808;
+        width: 0.1%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: #e6bd43;
     }
+
+    /*Index*/
+
+    main section p{
+        align-items: center;
+    }
+
+    /*About*/
+
+    .contact{
+        font-weight: bold;
+        background-color: #e6bd43;
+        padding: 12px;
+    }
+
+    main{
+        position: relative;
+        padding-bottom: 110px;
+    }
+
+    .brands{
+        display: table;
+        border: 1px solid black;
+    }
+
+    .brand{
+        text-align: center;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+    /*Products*/
 
     .design{
         border: 1px solid #d9d9d9;
         display: table;
+    }
+
+    .design img{
+        width:100%;
+        max-width: 350px;
+        min-width: 200px;
     }
 
     .branding{
@@ -107,9 +168,21 @@ footer{
         display: table;
     }
 
+    .branding img{
+        width:100%;
+        max-width: 350px;
+        min-width: 200px;
+    }
+
     .development{
         border: 1px solid #d9d9d9;
         display: table;
+    }
+
+    .development img{
+        width:100%;
+        max-width: 350px;
+        min-width: 200px;
     }
 
     .artikkelkort{
@@ -119,5 +192,34 @@ footer{
         border: 1px solid #d9d9d9;
         padding: 1rem;
         margin: 0.5rem;
+    }
+
+    .linjer{
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 96%;
+        left: 2%;
+        height: 3px;
+        background-color: #e6bd43;
+    }
+
+    .button{
+        display: inline-block;
+        padding: 0.5rem;
+        background-color: #d2dfe1;
+        text-decoration: none;
+        color: #000;
+    }
+
+    /*Idk*/
+    .msg{
+        float: left;
+    }
+
+    .contactinfo{
+        float: right;
+        width: 200px;
+        margin-left: 30px;
     }
 }
