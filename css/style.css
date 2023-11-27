@@ -70,16 +70,13 @@ footer{
 
     .porto{
         font-weight: bold;
+        text-decoration: none;
     }
 
-    header nav ul li a u{
-        content: " ";
-        display: block;
-        width: 0.1%;
-        height: 1px;
-        bottom: 0;
-        left: 0;
+    .contact{
+        font-weight: bold;
         background-color: #e6bd43;
+        padding: 12px;
     }
 
 
@@ -100,12 +97,6 @@ footer{
         width: 100%;
         object-fit: cover;
         height: 300px;
-    }
-
-    .contact{
-        font-weight: bold;
-        background-color: #e6bd43;
-        padding: 12px;
     }
 
     .brands{
@@ -235,12 +226,13 @@ footer{
         color: white;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     footer section{
-        padding: 1rem;
-        width: 100%;
+        display: contents;
         align-items: center;
+        flex: 1;
     }
 
     .flogo{
@@ -253,23 +245,13 @@ footer{
         color: white;
     }
 
-    footer p{
-        position: relative;
-        left: 80%;
-        top: 36%;
-        transform: translate(-50%, -50%);
-    }
-          
     footer ul{
         list-style: none;
         display: flex;
     }
     
     footer ul li{
-        position: relative;
-        padding: 0.6%;
-        left: 79%;
-        top: 36%;
-        transform: translate(-50%, -50%);
+        margin-right: 10px;
     }
+
 }
