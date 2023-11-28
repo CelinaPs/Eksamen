@@ -84,6 +84,7 @@ footer{
     /*Index*/
 
     main{
+        grid-area: main;
         position: relative;
         padding-bottom: 0;
     }
@@ -92,29 +93,87 @@ footer{
         align-items: center;
     }
 
+    .headline{
+        background-color: lightgray;
+        text-align: center;
+        padding: 8%;
+    }
+
+    .subhead{
+        text-align: center;
+        padding: 5%;
+    }
+
+    .front-about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      
+    .front-about h2, .front-about p{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .front-about img{
+        width: 400px;
+        height: 400px;
+    }
+
+    #button-headline{
+        margin-top: 10px;
+    }
+
+    .headline h1{
+        font-weight: bold;
+    }
+
+    .button2{
+        padding: 1%;
+        border: 2px solid black;
+        text-decoration: none;
+        color: black;
+    }
+
     /*About*/
 
     .bgabout{
+        position: relative;
         width: 100%;
         object-fit: cover;
-        height: 500px;
+        height: 400px;
+    }
+
+    .box{
+        position: absolute;
+        bottom: 1200px;
+        right: 500px;
+        background-color: rgb(255, 255, 255);
+        opacity: 70%;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .box a{
+        opacity: 100%;
     }
 
     .brands{
+        border: 1px solid #d9d9d9;
         display: table;
-        border: 1px solid black;
+        margin: 0 auto;
     }
 
     .brand{
+        width: 180px;
+        height: 150px;
+        float: left;
         text-align: center;
+        padding: 1rem;
+        margin: 0.5rem;
+        padding-top: 30px;
     }
-
-    .map{
-        width: 100%;
-        margin-bottom: 0px;
-    }
-
-    /*Products*/
 
     .bgproducts{ /*Background picture in products.html*/
         width: 100%;
