@@ -43,6 +43,8 @@ footer{ /*Jeg brukte ChatGPT til å prøve å finne ut av hvorfor <footer> ikke 
     justify-content: center;
 }
 
+
+
 @media only screen and (min-width:600px){
     #grid-container{
         display: grid;
