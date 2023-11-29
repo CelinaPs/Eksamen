@@ -104,20 +104,36 @@ footer{ /*Jeg brukte ChatGPT til å prøve å finne ut av hvorfor <footer> ikke 
         padding: 5%;
     }
 
-    .front-about{
+    .about-box{
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-      
-    .front-about h2, .front-about p{
-        font-size: 20px;
-        padding-left: 20px;
+        text-align: left;
+        width: 100%;
+        margin: 0 auto;
+        width: 77%;
     }
 
-    .front-about img{
+    .box-border{
+        border: 1.8px solid #252525;
+    }
+      
+    .about-box h2, .about-box p{
+        font-size: 20px;
+        padding-left: 30px;
+    }
+
+    .about-box img{
         width: 400px;
         height: 400px;
+    }
+
+    .button2{
+        padding: 2%;
+        border: 3px solid black;
+        text-decoration: none;
+        color: black;
+        margin-left: 30px;
     }
 
     #button-headline{
@@ -128,11 +144,37 @@ footer{ /*Jeg brukte ChatGPT til å prøve å finne ut av hvorfor <footer> ikke 
         font-weight: bold;
     }
 
-    .button2{
-        padding: 1%;
-        border: 2px solid black;
-        text-decoration: none;
-        color: black;
+    .newsletter{
+        background-color: #eaeaea;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    .brand-section h3{
+        text-align: center;
+    }
+
+    .form2{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin: 0 auto;
+    }
+    
+    .form2 input[type="submit"] {
+        padding: 12px;
+    }
+
+    #email{ /*Brukte inspect på nettleseren, hentet koden og redigerte den.*/
+        width: 21%;
+        display: block;
+        padding: 12px;
+        border: 0;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        resize: vertical;
     }
 
     /*About*/
@@ -146,19 +188,21 @@ footer{ /*Jeg brukte ChatGPT til å prøve å finne ut av hvorfor <footer> ikke 
 
     .box{
         position: absolute;
-        bottom: 1200px;
-        right: 500px;
-        background-color: rgb(255, 255, 255);
-        opacity: 70%;
-        color: white;
-        padding-left: 20px;
-        padding-right: 20px;
+        width: 450px;
+        bottom: 1478px;
+        right: 50px;
+        background: #ffffffbc;
+        color: black;
+        padding: 20px;
     }
 
-    .box a{
-        opacity: 100%;
+    .box h4{
+        font-size: small;
     }
 
+    .box h5{
+        font-size: medium;
+    }
     
     .brand-section h3{
         text-align: center;
@@ -262,7 +306,7 @@ footer{ /*Jeg brukte ChatGPT til å prøve å finne ut av hvorfor <footer> ikke 
     }
 
     .jobs{
-        margin: 2%;
+        margin: 0;
     }
 
     .jobs ul{
@@ -281,6 +325,10 @@ footer{ /*Jeg brukte ChatGPT til å prøve å finne ut av hvorfor <footer> ikke 
     .jobs a{
         text-decoration: none;
         color: black;
+    }
+
+    .jobs h2{
+        margin: 2%;
     }
 
     .prods{
@@ -343,7 +391,7 @@ footer{ /*Jeg brukte ChatGPT til å prøve å finne ut av hvorfor <footer> ikke 
         float: left;
         padding: 1rem;
         margin: 0.5rem;
-        padding-top: 30px;
+        padding-top: 50px;
     }
 
     .linjer{
@@ -369,7 +417,8 @@ footer{ /*Jeg brukte ChatGPT til å prøve å finne ut av hvorfor <footer> ikke 
 
     .button{
         display: inline-block;
-        padding: 0.5rem;
+        padding: 0.6rem;
+        font-weight: bold;
         background-color: #e6bd43;
         text-decoration: none;
         color: #000;

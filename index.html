@@ -33,16 +33,19 @@
                     <h2>Enganging subheading. What can you help your visitors with</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nunc elementum, aliquet est sed, dictum dolor. Curabitur quis velit fringilla, interdum mi vel, rhoncus felis.</p>
                 </section>
-                <section class="front-about">
-                    <img src="https://placehold.co/400">
-                    <h2>About Our Company</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nunc elementum, aliquet est sed, dictum dolor. Curabitur quis velit fringilla, interdum mi vel, rhoncus felis.</p>
-                    <a class="button2" href="about.html">Read more about us</a>
+                <section class="box-border">
+                    <section class="about-box">
+                        <img src="https://placehold.co/400">
+                        <article class="about">
+                            <h2>About Our Company</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nunc elementum, aliquet est sed, dictum dolor. Curabitur quis velit fringilla, interdum mi vel, rhoncus felis.</p>
+                            <a class="button2" href="about.html">Read more about us</a>
+                        </article>
+                    </section>
                 </section>
                 <section class="brand-section">
                     <h3>Our Services</h3>
-                    <a href="about.html">?
-                    </a>
+                    <a href="about.html"></a>
                     <section class="brands">
                         <article class="brand">
                             <h4>Branding</h4>
@@ -62,11 +65,16 @@
                         </article>
                     </section>
                 <section>
-                    <section>
+                    <section class="newsletter">
                         <h2>Sign up for our newsletter</h2>
+                        <form class="form2" action="/action_page.php">
+                            <label for="email"></label>
+                            <input type="text" id="email" name="email" placeholder=" ">
+                            <input type="submit" value="Sign me up">
+                          </form>
                     </section>
             </main>
-            <footer>
+            <footer> <!--Jeg brukte ChatGPT til å prøve å finne ut av hvorfor <footer> ikke satt på bunn av siden. Den pekte ut at jeg ikke hadde lagt <footer> i «grid-area: footer;-->
                 <section>
                     <a class="flogo" href="index.html"><img src="img/logo2.png" alt="logo" style="width: 50%;"></a>
                     <p>Company Copyright 2023</p>
