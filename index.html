@@ -19,7 +19,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li class="porto"><a href="products.html">Portofolio</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li class="contact"><a href="about.html">Contact</a></li>
+                    <li class="contact"><a href="about.html#kontakt">Contact</a></li><!--Her fant jeg hvordan jeg skal lenke til seksjoner i koden min https://stackoverflow.com/questions/14542592/html5-link-to-section-->
                 </ul>
             </nav>
         </header>
@@ -27,7 +27,7 @@
                 <section class="headline">
                     <h1>Compeling headline</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <a class="button" id="button-headline" href="about.html">Read more about our services</a>
+                    <a class="button" id="button-headline" href="#services">Read more about our services</a>
                 </section>
                 <section class="subhead">
                     <h2>Enganging subheading. What can you help your visitors with</h2>
@@ -43,23 +43,27 @@
                         </article>
                     </section>
                 </section>
-                <section class="brand-section">
+                <section class="brand-section" id="services">
                     <h3>Our Services</h3>
                     <a href="about.html"></a>
                     <section class="brands">
                         <article class="brand">
+                            <i class="fa-solid fa-users"></i>
                             <h4>Branding</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </article>
                         <article class="brand">
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
                             <h4>Design</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </article>
                         <article class="brand">
+                            <i class="fa-solid fa-code"></i>
                             <h4>Development</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </article>
                         <article class="brand">
+                            <i class="fa-solid fa-wifi"></i>
                             <h4>Support</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </article>
@@ -81,9 +85,9 @@
                     <a class="flogo" href="index.html"><img src="img/logo2.png" alt="logo" style="width: 50%;"></a>
                     <p>Company Copyright 2023</p>
                     <ul>
-                        <li><a href="https://www.facebook.com/">Facebook</a></li>
-                        <li><a href="https://www.instagram.com/">Instagram</a></li>
-                        <li><a href="https://www.linkedin.com/">Linked in</a></li>
+                        <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
                     </ul>
                 </section>
             </footer>     
